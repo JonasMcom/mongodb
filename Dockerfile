@@ -8,4 +8,4 @@ ENV MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
 EXPOSE 27017
 
 # Start MongoDB with smaller cache size
-CMD ["mongod", "--wiredTigerCacheSizeGB", "0.2"]
+CMD ["mongod", "--wiredTigerCacheSizeGB", "0.25"]
